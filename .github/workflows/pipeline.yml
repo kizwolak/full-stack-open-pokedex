@@ -31,7 +31,7 @@ jobs:
           start: npm run start-prod
           wait-on: http://localhost:5000
   tag_release:
-    needs: [simple_deplyoment_pipeline]
+    needs: [simple_deployment_pipeline]
     runs-on: ubuntu-22.04
     permissions:
       contents: write
