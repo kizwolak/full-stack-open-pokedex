@@ -17,6 +17,8 @@ module.exports = {
   plugins: ["react", "jest"],
   rules: {
     "no-console": "off",
+    "no-unused-vars": "off",
+    "no-undef": "off",
     indent: ["error", 2],
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "single"],
